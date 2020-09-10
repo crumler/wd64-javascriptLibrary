@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+    background-color: lightskyblue;
+}
+
+hr {
+    border-top: 2px solid red;
+}
+
+#underline {
+    text-decoration: underline;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid navy;
+}
+
+th {
+    font-family: "Crimson Text", sans-serif;
+}
+
+.alignTable {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.tableBorder td{
+    border: 8px solid black;
+    border-style: double;
+    align-content: center;
+}
+
+h2.movie {
+    text-align: center;
+}
+
+.italicTitles {
+    font-style: italic;
+    text-align: center;
+}
+
+.mainAlt {
+    text-align: center;
+}
+
+.crimsonFont {
+    font-family: "Crimson Text", sans-serif;
+}
