@@ -42,7 +42,7 @@ slightlyComplex(3,1);
 slightlyComplex(1,5);
 
 // Block:
-// The 'return' keyword IS required.  We also include the curly brackes.
+// The 'return' keyword IS required.  We also include the curly brackets.
 
 let blockArrow = (x,y) => {
     return `${x} are within a ${y}`;

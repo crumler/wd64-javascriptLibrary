@@ -42,7 +42,8 @@ console.log('3' !== 3);
 
 //And
 
-2 && 3;  //checks to see the values of these two items are the same (think This & That)
+console.log(2 && 3);  //checks to see the values of these two items are the same (think This & That)
 
 //Or
-2 || 3;
+
+console.log(2 || 3);

@@ -51,7 +51,7 @@ function layerOne() {
     console.log(ordered);
 }
 
-layerOne();  // we call this function proior to console logging our variable "ordered" within our Global
+layerOne();  // we call this function prior to console logging our variable "ordered" within our Global
 console.log(ordered);
 // This returns:
 // 3
@@ -66,7 +66,7 @@ console.log(ordered);
 let a = 10;
 
 function reassign() {
-    a = 30 // we are keeping this variable open and, with the 'let' keyword, we are capable of changing the valuethat is currently being helped within that variable.
+    a = 30 // we are keeping this variable open and, with the 'let' keyword, we are capable of changing the value that is currently being helped within that variable.
     console.log(`a is being set to ${a} in this function.`);
 }
 
