@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="testParagraph">sample text</p>
+    <br>
+    <p class="sampleClass">This paragraph has a class of 'sampleClass'</p>
+
+    <button id="clickThisButton">Click Me</button>
+
+    <br>
+    <hr>
+
+    <label for='nameInput'>Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith" />
+
+    <p>Welcome!</p>
+    <p>No name has been entered yet</p>
+
+    <script type="text/javascript">
+        /* All of our JavaScript code will go here */
+        document.getElementById('testParagraph').style.color = 'blue';
+
+        document.querySelectorAll('p.sampleClass')[0].innerText = 'My text was changed!';
+
+        // document.querySelectorAll('p.sampleClass')[0].innerHTML = "<span>I am a whole new element!</span>";
+
+        document.getElementById('clickThisButton').addEventListener('click', (details) => {
+            details.target.style.backgroundColor = 'red';
+        })
+
+        document.getElementById('nameInput').addEventListener('keyup', (event) => {
+            if (event.target.value === '') {
+                document.getElementsByTagName('p')[3].innerText = 'No Name has been entered';
+            } else {
+                document.getElementsByTagName('p')[3].innerText = `Everyone, please welcome ${event.target.value} to the stage!`;
+            }
+            
+            // document.getElementsByTagName(p)[0].innerText = 
+        });
+    </script>
+</body>
+</html>
